@@ -1,0 +1,43 @@
+#more {
+  display: none;
+}
+.about-us {
+  @media screen and (max-width: 767.99px) {
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.about-us__item {
+  flex-basis: calc(100% / 2 - 25px);
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-us__title {
+  margin: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: Caveat Brush;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 2.7;
+}
+
+.about-us__button {
+  display: block;
+  font-family: Caveat Brush;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 3.61;
+  text-align: center;
+  color: var(--button-bg-color);
+  background-color: white;
+  border: none;
+}

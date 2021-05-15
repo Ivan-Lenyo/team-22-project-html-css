@@ -1,0 +1,127 @@
+:root {
+  --main-text-color: #2e2520;
+  --button-bg-color: #ab816c;
+  --program-description-color: #000;
+  --prodram-icon-color: #674d40;
+  --placeholder-text-color: rgba(171, 129, 108, 0.5);
+  --accent-color: #876655;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  outline: 1px solid red;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--main-text-color);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+.container {
+  width: 100%;
+  min-width: 320px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 227px;
+    padding-right: 227px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+}
+
+#more {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.about-us__item {
+  -ms-flex-preferred-size: calc(100% / 2 - 25px);
+      flex-basis: calc(100% / 2 - 25px);
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-us__title {
+  margin: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: Caveat Brush;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 2.7;
+}
+
+.about-us__button {
+  display: block;
+  font-family: Caveat Brush;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 3.61;
+  text-align: center;
+  color: var(--button-bg-color);
+  background-color: white;
+  border: none;
+}
+/*# sourceMappingURL=main.css.map */
