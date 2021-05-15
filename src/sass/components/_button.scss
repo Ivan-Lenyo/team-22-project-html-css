@@ -1,0 +1,24 @@
+// mobile menu button
+.header__menu-btn {
+  position: absolute;
+  top: 17px;
+  right: 12px;
+  border: none;
+  background-color: transparent;
+
+  @media screen and (min-width: 1279px) {
+    display: none;
+  }
+  @media screen and (min-width: 767px) {
+    top: 26px;
+    right: 67px;
+  }
+}
+.header__menu-btn-icon {
+  width: 30px;
+  height: 16px;
+  fill: var(--main-text-color);
+}
+.header__icon-close {
+  display: none;
+}
