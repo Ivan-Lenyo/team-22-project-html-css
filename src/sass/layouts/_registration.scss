@@ -1,0 +1,76 @@
+.registration__container {
+  background: #fffff9;
+  box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+  border-radius: 150px 150px 0px 0px;
+  padding-top: 15px;
+  padding-bottom: 47px;
+}
+.section-title {
+  font-family: 'Caveat Brush';
+  font-size: 24px;
+  line-height: 2.71;
+  text-align: center;
+  color: var(--main-text-color);
+  margin-bottom: 11px;
+}
+.registration__data-info {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  color: var(--main-text-color);
+}
+.registration__address {
+  font-style: normal;
+  margin-bottom: 25px;
+}
+.registration--thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.registration--line {
+  width: 265px;
+  border: 1px solid rgba(171, 129, 108, 0.5);
+  margin-bottom: 11px;
+}
+// form
+.registration__form {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.registration__form-item {
+  margin-bottom: 25px;
+}
+.registration__label {
+  width: 100%;
+  max-width: 266px;
+}
+.registration__input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--button-bg-color);
+
+  &::placeholder {
+    color: rgba(171, 129, 108, 0.5);
+  }
+}
+.registration__form-btn {
+  font-family: 'Caveat Brush';
+  font-size: 18px;
+  text-align: center;
+  width: 145px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  color: var(--btn-text-color);
+  background-color: var(--button-bg-color);
+}
+.registration__label-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 37px;
+}
