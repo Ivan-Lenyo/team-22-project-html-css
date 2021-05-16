@@ -37,3 +37,18 @@
 .social__link:focus .social__icon {
   fill: var(--accent-color);
 }
+
+// footer social
+.footer__social-thumb {
+  margin-top: 34px;
+  margin-bottom: 34px;
+
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    margin-top: 37px;
+    margin-bottom: 51px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: 74px;
+    margin-bottom: 35px;
+  }
+}
