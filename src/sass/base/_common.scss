@@ -56,12 +56,6 @@ p {
   color: var(--main-text-color);
   margin-bottom: 11px;
 
-  @media screen and (max-width: 767px) {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translate(-50%);
-  }
   @media screen and (min-width: 1280px) {
     font-size: 36px;
     line-height: 1.81;
