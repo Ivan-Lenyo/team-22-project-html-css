@@ -1,8 +1,10 @@
 :root {
+  --white-color: #fff;
   --main-text-color: #2e2520;
   --button-bg-color: #ab816c;
   --program-description-color: #000;
   --prodram-icon-color: #674d40;
   --placeholder-text-color: rgba(171, 129, 108, 0.5);
   --accent-color: #876655;
+  --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
