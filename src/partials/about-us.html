@@ -11,9 +11,9 @@
                 media="(min-width: 768px)" />
             
             <source srcset="../src/images/box/mobile/mobile-box.png 1x, ../src/images/box/mobile/mobile-box-2x.png 2x"
-                media="(max-width: 767px)" />
+                media="(max-width: 767.99px)" />
 
-    <img src="../src/images/box/desktop/desktop-box.png" alt="кава і донат" width="512px">
+    <img src="../src/images/box/desktop/desktop-box.png" alt="кава і донат" width="512px" heigth="547px">
     </picture>
     </li>
         <li class="about-us__item">
@@ -24,7 +24,7 @@
     <p class="about-us__text">Eva has been baking since she was six years old and over the last 49 years, she
     has created hundreds of cakes for weddings and has baked for many celebrities. Eva and our shop have received multiple
     awards & recognition for excellence.<span id="dot">
-    </p> <span id="more">We are going to teach you how to cook with passion and sparkles in your eyes! We love what we do and
+    </p> <span class="about-us__text--more" id="more">We are going to teach you how to cook with passion and sparkles in your eyes! We love what we do and
         believe you will
         enjoy our cooking atmosphere!</span>
     <button class="about-us__button" onclick="myFunction()" id="myBtn">Read more</button>
@@ -47,7 +47,7 @@
         } else {
             dot.style.display = "none";
             btnText.innerHTML = "Less";
-            moreText.style.display = "inline";
+            moreText.style.display = "inline-block";
         }
     }
 </script>
