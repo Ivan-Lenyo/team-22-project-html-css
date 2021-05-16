@@ -1,9 +1,12 @@
 #more {
-  display: none;
+  @media screen and (max-width: 1279.99px) {
+    display: none;
+  }
 }
 .about-us {
   @media screen and (max-width: 767.99px) {
   }
+
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
@@ -40,4 +43,8 @@
   color: var(--button-bg-color);
   background-color: white;
   border: none;
+
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
 }
