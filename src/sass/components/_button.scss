@@ -1,0 +1,26 @@
+.button {
+  padding: 10px 45px;
+  min-width: 145px;
+  height: 40px;
+
+  color: var(--white-color);
+  background-color: var(--button-bg-color);
+  cursor: pointer;
+  font-family: 'Caveat Brush', cursive;
+  border-radius: 25px;
+  border: 0;
+  text-align: center;
+
+  transition: background-color var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+
+  @media screen and (min-width: 1280px) {
+    min-width: 158px;
+    height: 45px;
+    font-size: 24px;
+  }
+}
