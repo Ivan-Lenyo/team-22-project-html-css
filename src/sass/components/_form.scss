@@ -1,3 +1,4 @@
+// registration form
 .registration__form {
   padding-left: 12px;
   padding-right: 12px;
@@ -44,7 +45,7 @@
     color: rgba(171, 129, 108, 0.5);
   }
   &:focus {
-    border-color: var(--accent-color);
+    border-color: 1px solid var(--accent-color);
   }
 }
 .registration__label-btn {
@@ -55,5 +56,33 @@
   @media screen and (min-width: 768px) {
     margin-top: 0;
     margin-left: 25px;
+  }
+}
+
+// contact form
+.contact__form {
+  max-width: 708px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 1280px) {
+    width: 430px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 410px;
+  }
+}
+.contact__label {
+  display: block;
+  margin-bottom: 25px;
+}
+.contact__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 27px;
   }
 }
