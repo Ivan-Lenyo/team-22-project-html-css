@@ -1,0 +1,11 @@
+.contact__container {
+  padding: 0px 30px 0px 30px;
+}
+.contact-title {
+  text-align: center;
+  margin: 0;
+
+  & + p {
+    margin-bottom: 25px;
+  }
+}
