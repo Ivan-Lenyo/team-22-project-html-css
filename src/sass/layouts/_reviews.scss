@@ -1,0 +1,54 @@
+li {
+  list-style-type: none;
+}
+
+.reviews__title {
+  margin-top: 68px;
+  margin-bottom: 24px;
+}
+
+.reviews__box {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews__card:not(:last-child) {
+  margin-right: 54px;
+}
+
+.reviews__card-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.stars {
+  display: inline;
+  margin-top: 6px;
+}
+
+.reviews__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.reviews__board {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 626px;
+  margin: auto;
+}
+
+.score {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ab816c;
+  margin-bottom: 68px;
+  margin-top: 35px;
+}
