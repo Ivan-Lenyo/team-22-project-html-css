@@ -1,0 +1,19 @@
+.footer__links-thumb {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__icon-tel {
+  width: 13px;
+  height: 13px;
+}
+.footer__icon-marker {
+  width: 11px;
+  height: 14px;
+}
+.footer__link--hover {
+  fill: var(--main-text-color);
+}
+.footer__link:hover .footer__link--hover,
+.footer__link:focus .footer__link--hover {
+  fill: var(--accent-color);
+}
