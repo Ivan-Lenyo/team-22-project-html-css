@@ -2,7 +2,7 @@
     <div class="container">
         <h2 class="section-title reviews__title">Reviews</h2>
         <ul class="reviews__box">
-            <li class="reviews__card">
+            <li class="reviews__card reviews__card-mobile">
                 <picture class="">
                     <source 
                         srcset="../src/images/reviews/desktop/desktop-photo1.png 1x, ../src/images/reviews/desktop/desktop-photo1-2x.png 2x" 
@@ -38,7 +38,7 @@
                         srcset="../src/images/reviews/mobile/mobile-photo.png 1x, ../src/images/reviews/mobile/mobile-photo-2x.png 2x" 
                         media="(max-width: 767.98px)"
                     >
-                    <img src="../src/images/reviews/desktop/desktop-photo2.png" alt="Will" width="234">
+                    <img class="rewiews__img" src="../src/images/reviews/desktop/desktop-photo2.png" alt="Will" >
                 </picture>    
                 <div class="reviews__card-box">
                     <picture>
@@ -50,7 +50,7 @@
                     <p class="rewiews__subtitle">Will</p>
                 </div>
             </li>
-            <li class="reviews__card">
+            <li class="reviews__card reviews__card-mobile">
                 <picture class="">
                     <source
                         srcset="../src/images/reviews/desktop/desktop-photo3.png 1x, ../src/images/reviews/desktop/desktop-photo3-2x.png 2x"
@@ -82,13 +82,17 @@
                 Thank you so much for the masterclass! Looking forward to the next one and highly recommend it to everyone!
             </p> 
         </div>
-        <p class="score">
-         2/15
-        </p>
-        
-            
-        
-
+        <ul class="reviews__border">
+            <li>
+                <div class="border"></div>
+            </li>
+            <li>
+                <p class="reviews__text-border">2/15</p>
+            </li>
+            <li>
+                <div class="border"></div>
+            </li>
+        </ul>
     </div>
 
 </section>
