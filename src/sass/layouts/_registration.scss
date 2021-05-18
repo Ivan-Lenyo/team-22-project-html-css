@@ -1,3 +1,17 @@
+.registration::before {
+  @media screen and (min-width: 768px) {
+    display: inline-flex;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/registration-donut/img.png'),
+      url('../images/confetti/tablet/tablet-confetti.png');
+    background-repeat: no-repeat;
+    background-position: 0 0, right center;
+    position: absolute;
+  }
+}
+
 .registration__container {
   background: #fffff9;
   box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
