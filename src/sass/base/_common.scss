@@ -1,11 +1,11 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::after,
 *::before {
   box-sizing: inherit;
-  // outline: 1px solid red;
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -60,5 +60,20 @@ p {
   @media screen and (min-width: 1280px) {
     font-size: 36px;
     line-height: 1.81;
+  }
+}
+
+.hidden {
+  display: none;
+
+  @media screen and (min-width: 1280px) {
+    display: inline-block;
+  }
+}
+
+.btn,
+.btnp {
+  @media screen and (min-width: 1280px) {
+    display: none;
   }
 }
