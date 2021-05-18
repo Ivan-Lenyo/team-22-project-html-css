@@ -1,14 +1,15 @@
 .header__bg {
-  width: 320px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
 
-  background-image: url('../images/heder-donuts/mobile/mobile-donuts.png'),
-    url('../images/bg/mobile/mobile-bg-up.png');
-  background-repeat: no-repeat;
-  background-position: top 0 left 0, 50% 0;
+  @media screen and (max-width: 767.98px) {
+    width: 767.98;
+    background-image: url('../images/heder-donuts/mobile/mobile-donuts.png'),
+      url('../images/bg/mobile/mobile-bg-up.png');
+    background-repeat: no-repeat;
+    background-size: auto, contain;
+    background-position: top 0 left 0, top center;
+  }
 
   @media screen and (min-width: 768px) {
     width: 768px;
@@ -29,16 +30,17 @@
 }
 
 .footer__bg {
-  width: 320px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
 
-  background-image: url('../images/plate/mobile/mobile-plate.png'),
-    url('../images/bg/mobile/mobile-bg-down.png');
-  background-repeat: no-repeat;
-  background-position: right bottom, 50% 0;
+  @media screen and (max-width: 767.98px) {
+    width: 767.98;
+    background-image: url('../images/plate/mobile/mobile-plate.png'),
+      url('../images/bg/mobile/mobile-bg-down.png');
+    background-repeat: no-repeat;
+    background-size: auto, 100%;
+    background-position: right bottom, top;
+  }
 
   @media screen and (min-width: 768px) {
     width: 768px;
