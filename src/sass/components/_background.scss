@@ -9,6 +9,11 @@
     background-repeat: no-repeat;
     background-size: auto, contain;
     background-position: top 0 left 0, top center;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/heder-donuts/mobile/mobile-donuts-2x.png'),
+        url('../images/bg/mobile/mobile-bg-up.png');
+    }
   }
 
   @media screen and (min-width: 768px) {
@@ -17,6 +22,10 @@
       url('../images/bg/tablet/tablet-bg-up.png');
     background-repeat: no-repeat;
     background-position: top 0 left 254px, 50% 0;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/heder-donuts/tablet/tablet-donuts-2x.png'),
+        url('../images/bg/tablet/tablet-bg-up.png');
+    }
   }
 
   @media screen and (min-width: 1280px) {
@@ -26,6 +35,11 @@
       url('../images/bg/desktop/desktop-bg-up.png');
     background-repeat: no-repeat;
     background-position: left 0 top 166px, top 0 right 0, 50% 0;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/spoon/spoon-2x.png'),
+        url('../images/heder-donuts/desktop/desktop-donuts-2x.png'),
+        url('../images/bg/desktop/desktop-bg-up.png');
+    }
   }
 }
 
@@ -40,6 +54,10 @@
     background-repeat: no-repeat;
     background-size: auto, 100%;
     background-position: right bottom, top;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/plate/mobile/mobile-plate-2x.png'),
+        url('../images/bg/mobile/mobile-bg-down.png');
+    }
   }
 
   @media screen and (min-width: 768px) {
@@ -48,6 +66,10 @@
       url('../images/bg/tablet/tablet-bg-down.png');
     background-repeat: no-repeat;
     background-position: right bottom, 50% 0;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/plate/tablet/tablet-plate-2x.png'),
+        url('../images/bg/tablet/tablet-bg-down.png');
+    }
   }
 
   @media screen and (min-width: 1280px) {
@@ -56,5 +78,9 @@
       url('../images/bg/desktop/desktop-bg-down.png');
     background-repeat: no-repeat;
     background-position: right bottom, 50% 0;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/plate/desktop/desktop-plate-2x.png'),
+        url('../images/bg/desktop/desktop-bg-down.png');
+    }
   }
 }
