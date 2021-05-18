@@ -1,0 +1,40 @@
+.menu__navigation {
+  position: fixed;
+  z-index: 90;
+  top: 0;
+  right: 0;
+  width: 100%;
+  min-width: 320px;
+  height: 100vh;
+  padding-top: 25px;
+  background: rgba(254, 243, 228, 0.8);
+  backdrop-filter: blur(2px);
+  transform: scale(0);
+  transform-origin: top right;
+  transition: transform 0.5s;
+
+  &.is-open {
+    transform: scaleX(1);
+  }
+}
+.menu__logo-icon {
+  width: 190px;
+  height: 85px;
+}
+.menu__logo-thumb {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.menu__link-thumb {
+  display: flex;
+  justify-content: center;
+}
+.menu__navigation-item:not(:last-child) {
+  margin-bottom: 45px;
+}
+.menu__navigation-link {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+}
