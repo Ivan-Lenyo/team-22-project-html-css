@@ -24,10 +24,24 @@
 
 .program__list {
   margin-bottom: 10px;
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 20px;
+  }
+}
+
+.program__item {
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 15px;
+  }
 }
 
 .program__text {
   margin-bottom: 10px;
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 20px;
+  }
 }
 
 .events {
