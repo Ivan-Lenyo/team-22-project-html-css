@@ -38,14 +38,14 @@
 .registration__input {
   width: 100%;
   background-color: transparent;
-  border-color: transparent;
+  border: transparent;
   border-bottom: 1px solid var(--button-bg-color);
 
   &::placeholder {
     color: rgba(171, 129, 108, 0.5);
   }
   &:focus {
-    border-color: 1px solid var(--accent-color);
+    border: 1px solid var(--accent-color);
   }
 }
 .registration__label-btn {
