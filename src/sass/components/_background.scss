@@ -3,7 +3,7 @@
   margin-left: auto;
 
   @media screen and (max-width: 767.98px) {
-    width: 767.98;
+    max-width: 767.98px;
     background-image: url('../images/heder-donuts/mobile/mobile-donuts.png'),
       url('../images/bg/mobile/mobile-bg-up.png');
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@
   margin-left: auto;
 
   @media screen and (max-width: 767.98px) {
-    width: 767.98;
+    max-width: 767.98px;
     background-image: url('../images/plate/mobile/mobile-plate.png'),
       url('../images/bg/mobile/mobile-bg-down.png');
     background-repeat: no-repeat;
