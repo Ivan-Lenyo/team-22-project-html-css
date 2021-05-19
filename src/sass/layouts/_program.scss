@@ -137,8 +137,11 @@
 }
 
 .events__icon {
-  fill: var(--prodram-icon-color);
   margin-bottom: 9px;
+}
+
+.events__icon--fill {
+  fill: var(--prodram-icon-color);
 }
 
 .events__picture {
