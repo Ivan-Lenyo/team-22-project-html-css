@@ -23,6 +23,7 @@
     background-repeat: no-repeat;
     background-position: top 0 left 254px, 50% 0;
     background-size: 380px 361px, contain;
+
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('../images/heder-donuts/tablet/tablet-donuts-2x.png'),
         url('../images/bg/tablet/tablet-bg-up.png');
@@ -37,6 +38,7 @@
     background-repeat: no-repeat;
     background-size: 142px 450px, 719px 660px, auto;
     background-position: left 0 top 166px, top 0 right 0, 50% 0;
+
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('../images/spoon/spoon-2x.png'),
         url('../images/heder-donuts/desktop/desktop-donuts-2x.png'),
@@ -56,6 +58,7 @@
     background-repeat: no-repeat;
     background-size: 87px 64px, 100%;
     background-position: right bottom, top;
+
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('../images/plate/mobile/mobile-plate-2x.png'),
         url('../images/bg/mobile/mobile-bg-down.png');
@@ -71,6 +74,7 @@
     background-repeat: no-repeat;
     background-size: 147px 144px, 235px 255px, 280px 374px, auto;
     background-position: right bottom, left 2px bottom 500px, right bottom 315px, 50% 0;
+
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('../images/plate/tablet/tablet-plate-2x.png'),
         url('../images/registration-donut/img-2x.png'),
@@ -88,6 +92,7 @@
     background-repeat: no-repeat;
     background-size: 319px 184px, 235px 255px, 606px 589px, auto;
     background-position: right bottom, left 80px bottom 550px, right bottom 222px, 50% 0;
+
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('../images/plate/desktop/desktop-plate-2x.png'),
         url('../images/registration-donut/img-2x.png'),
