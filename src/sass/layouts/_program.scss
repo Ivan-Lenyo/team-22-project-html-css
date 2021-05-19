@@ -146,10 +146,12 @@
 
 .events__picture {
   position: absolute;
-  top: -62px;
-  left: 24px;
+  width: 76px;
+  top: -45px;
+  left: 30px;
 
   @media screen and (min-width: 1280px) {
+    width: 97px;
     top: -60px;
     left: 35px;
   }
