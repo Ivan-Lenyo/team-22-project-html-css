@@ -47,6 +47,9 @@
   &:focus {
     border: 1px solid var(--accent-color);
   }
+  &:not(:placeholder-shown):required:invalid {
+    border: 1px solid red;
+  }
 }
 .registration__label-btn {
   display: flex;
