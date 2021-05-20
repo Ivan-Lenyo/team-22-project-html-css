@@ -6,7 +6,7 @@
     background-image: url('../images/heder-donuts/mobile/mobile-donuts.png'),
       url('../images/bg/mobile/mobile-bg-up.png');
     background-repeat: no-repeat;
-    background-size: 129px 129px, contain;
+    background-size: 129px 129px, 100% 461px;
     background-position: top 0 left 0, top center;
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -20,7 +20,7 @@
       url('../images/bg/tablet/tablet-bg-up.png');
     background-repeat: no-repeat;
     background-position: top 0 left 60%, 50% 0;
-    background-size: 380px 361px, cover;
+    background-size: 380px 361px, 100% 622px;
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('../images/heder-donuts/tablet/tablet-donuts-2x.png'),
@@ -29,12 +29,11 @@
   }
 
   @media screen and (min-width: 1280px) {
-    max-width: 1440px;
     background-image: url('../images/spoon/spoon.png'),
       url('../images/heder-donuts/desktop/desktop-donuts.png'),
       url('../images/bg/desktop/desktop-bg-up.png');
     background-repeat: no-repeat;
-    background-size: 142px 450px, 719px 660px, cover;
+    background-size: 142px 450px, 719px 660px, 100% 1036px;
     background-position: left 0 top 166px, top 0 right 0, 50% 0;
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -53,7 +52,7 @@
     background-image: url('../images/plate/mobile/mobile-plate.png'),
       url('../images/bg/mobile/mobile-bg-down.png');
     background-repeat: no-repeat;
-    background-size: 87px 64px, 100%;
+    background-size: 87px 64px, 100% 1300px;
     background-position: right bottom, top;
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -68,7 +67,7 @@
       url('../images/confetti/tablet/tablet-confetti.png'),
       url('../images/bg/tablet/tablet-bg-down.png');
     background-repeat: no-repeat;
-    background-size: 147px 144px, 235px 255px, 280px 374px, cover;
+    background-size: 147px 144px, 235px 255px, 280px 374px, 100% 1260px;
     background-position: right bottom, left 3% bottom 500px, right 3% bottom 315px, 50% 0;
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -80,13 +79,12 @@
   }
 
   @media screen and (min-width: 1280px) {
-    max-width: 1440px;
     background-image: url('../images/plate/desktop/desktop-plate.png'),
       url('../images/registration-donut/img.png'),
       url('../images/confetti/desktop/desktop-confetti.png'),
       url('../images/bg/desktop/desktop-bg-down.png');
     background-repeat: no-repeat;
-    background-size: 319px 184px, 235px 255px, 606px 589px, cover;
+    background-size: 319px 184px, 235px 255px, 606px 589px, 100% 1497px;
     background-position: right bottom, left 10% bottom 550px, right 1% bottom 222px, 50% 0;
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
