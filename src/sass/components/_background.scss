@@ -63,35 +63,60 @@
 
   @media screen and (min-width: 768px) {
     background-image: url('../images/plate/tablet/tablet-plate.png'),
-      url('../images/registration-donut/img.png'),
-      url('../images/confetti/tablet/tablet-confetti.png'),
       url('../images/bg/tablet/tablet-bg-down.png');
     background-repeat: no-repeat;
-    background-size: 147px 144px, 235px 255px, 280px 374px, 100% 1260px;
-    background-position: right bottom, left 3% bottom 500px, right 3% bottom 315px, 50% 0;
+    background-size: 147px 144px, 100% 1260px;
+    background-position: right bottom, 50% 0;
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('../images/plate/tablet/tablet-plate-2x.png'),
-        url('../images/registration-donut/img-2x.png'),
-        url('../images/confetti/tablet/tablet-confetti-2x.png'),
         url('../images/bg/tablet/tablet-bg-down.png');
     }
   }
 
   @media screen and (min-width: 1280px) {
     background-image: url('../images/plate/desktop/desktop-plate.png'),
-      url('../images/registration-donut/img.png'),
-      url('../images/confetti/desktop/desktop-confetti.png'),
       url('../images/bg/desktop/desktop-bg-down.png');
     background-repeat: no-repeat;
-    background-size: 319px 184px, 235px 255px, 606px 589px, 100% 1497px;
-    background-position: right bottom, left 10% bottom 550px, right 1% bottom 222px, 50% 0;
+    background-size: 319px 184px, 100% 1497px;
+    background-position: right bottom, 50% 0;
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('../images/plate/desktop/desktop-plate-2x.png'),
-        url('../images/registration-donut/img-2x.png'),
-        url('../images/confetti/desktop/desktop-confetti-2x.png'),
         url('../images/bg/desktop/desktop-bg-down.png');
+    }
+  }
+}
+
+.confeti__bg {
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    background-image: url('../images/registration-donut/img.png'),
+      url('../images/confetti/tablet/tablet-confetti.png');
+    background-repeat: no-repeat;
+    background-size: 235px 255px, 280px 374px;
+    background-position: left 1px bottom 500px, right 1px bottom 315px;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/registration-donut/img-2x.png'),
+        url('../images/confetti/tablet/tablet-confetti-2x.png');
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+    background-image: url('../images/registration-donut/img.png'),
+      url('../images/confetti/desktop/desktop-confetti.png');
+    background-repeat: no-repeat;
+    background-size: 235px 255px, 606px 589px;
+    background-position: left 100px bottom 550px, right 1px bottom 222px;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/registration-donut/img-2x.png'),
+        url('../images/confetti/desktop/desktop-confetti-2x.png');
     }
   }
 }
