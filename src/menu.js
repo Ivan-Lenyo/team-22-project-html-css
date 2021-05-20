@@ -4,6 +4,11 @@
   menuBtnRef.addEventListener('click', () => {
     const expanded = menuBtnRef.getAttribute('aria-expanded') === 'true' || false;
     menuBtnRef.classList.toggle('is-open');
+    if (menuBtnRef.classList.contains('is-open')) {
+      document.body.style.overflow = 'hidden'
+    } else {
+       document.body.style.overflow = ''
+    }
     menuBtnRef.setAttribute('aria-expanded', !expanded);
     mobileMenuRef.classList.toggle('is-open');
   });
@@ -23,6 +28,11 @@
     linkRef.addEventListener('click', () => {
       const expanded = menuBtnRef.getAttribute('aria-expanded') === 'true' || false;
       menuBtnRef.classList.toggle('is-open');
+    if (menuBtnRef.classList.contains('is-open')) {
+      document.body.style.overflow = 'hidden'
+    } else {
+       document.body.style.overflow = ''
+    }
       menuBtnRef.setAttribute('aria-expanded', !expanded);
       mobileMenuRef.classList.toggle('is-open');
     });
